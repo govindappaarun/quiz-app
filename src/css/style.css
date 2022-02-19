@@ -46,7 +46,7 @@
 #hero-section {
   min-height: 31rem;
   background-color: var(--ligt-blue);
-  color: var(--black);
+  color: var(--white);
 }
 
 .topics {
@@ -169,3 +169,26 @@ footer .btn {
   text-align: justify;
 }
 /* instructions ends here  */
+
+.result-card {
+  margin: 5rem 10rem;
+}
+
+.question {
+  padding: 0.5rem 2rem 0 2rem;
+  border-bottom: 1px solid var(--black);
+}
+
+.question:last-child {
+  border-bottom: 0;
+}
+
+.question h3 {
+  line-height: 0.5rem;
+}
+
+.congrats {
+  margin: 2rem 0;
+  height: 5rem;
+  color: var(--warning-light);
+}
