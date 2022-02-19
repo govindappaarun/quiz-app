@@ -1,3 +1,7 @@
+:root {
+  --white-cream: #f5f8fc;
+  --ligt-blue: #4183f2;
+}
 /* welcome page */
 #welcomepage .container {
   display: grid;
@@ -17,7 +21,7 @@
 }
 
 #welcome {
-  background-color: #f5f8fc;
+  background-color: var(--white-cream);
 }
 
 .navbar {
@@ -36,13 +40,13 @@
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
 /* till here */
 #hero-section {
   min-height: 31rem;
-  background-color: #4183f2;
-  color: #fff;
+  background-color: var(--ligt-blue);
+  color: var(--black);
 }
 
 .topics {
@@ -123,7 +127,7 @@
 
 #instructions .h3 {
   padding: 1rem 2rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--black);
 }
 
 #instructions .description {
@@ -158,7 +162,7 @@ footer .btn {
 
 .quiz .option:hover {
   background-color: var(--primary-light);
-  color: white;
+  color: var(--white);
 }
 
 .quiz .question {
