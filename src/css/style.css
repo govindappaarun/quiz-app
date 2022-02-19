@@ -33,7 +33,6 @@
   gap: 2rem;
 }
 
-/*TODO: should goto comp */
 .navbar {
   z-index: 1010;
 }
@@ -42,7 +41,7 @@
   text-decoration: none;
   color: var(--black);
 }
-/* till here */
+
 #hero-section {
   min-height: 31rem;
   background-color: var(--ligt-blue);
@@ -190,5 +189,4 @@ footer .btn {
 .congrats {
   margin: 2rem 0;
   height: 5rem;
-  color: var(--warning-light);
 }
