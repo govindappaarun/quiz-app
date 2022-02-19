@@ -1,0 +1,167 @@
+/* welcome page */
+#welcomepage .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  height: 100vh;
+}
+
+#welcomepage .container .left .hero {
+  max-width: 15ch;
+  margin: 0 auto;
+}
+
+#welcomepage .container .get-started {
+  margin-top: 7.5rem;
+}
+
+#welcome {
+  background-color: #f5f8fc;
+}
+
+.navbar {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+#welcome .navbar .nav-right {
+  gap: 2rem;
+}
+
+/*TODO: should goto comp */
+.navbar {
+  z-index: 1010;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+/* till here */
+#hero-section {
+  min-height: 31rem;
+  background-color: #4183f2;
+  color: #fff;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 20px;
+  margin: 0 5rem;
+  gap: 2rem;
+  place-items: center;
+  margin-top: -8rem;
+}
+
+.topics .card > .btn {
+  border-left: 0;
+  border-right: 0;
+}
+
+.topics .card {
+  max-width: 25rem;
+}
+
+.load-more-container {
+  min-width: 25rem;
+}
+
+#faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+#faq-section ul {
+  margin: 0;
+}
+
+#faq-section li {
+  border-bottom: 1px solid var(--grey-light);
+  padding: 2rem 0.5rem;
+}
+
+.list {
+  padding: 0 2rem;
+  width: 45rem;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid var(--grey-light);
+}
+
+#faq-section .list li:hover {
+  cursor: pointer;
+  color: var(--primary-light);
+}
+/* welcome ends here */
+
+/* instructions page  */
+
+#instructions .container {
+  margin: 2rem 5rem;
+}
+
+#need-help {
+  margin: 5rem;
+}
+
+#need-help .container {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+#instructions .h3 {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid black;
+}
+
+#instructions .description {
+  padding-left: 3rem;
+}
+
+footer .btn {
+  min-width: 10rem;
+}
+
+.quiz {
+  margin: 3rem 10rem;
+  font-size: 1.1rem;
+}
+
+.quiz header {
+  border-bottom: 1px solid var(--black);
+}
+
+.quiz .list {
+  width: auto;
+  min-width: 10rem;
+}
+
+.quiz .list li {
+  padding: 1rem;
+}
+
+.quiz footer {
+  border-top: 1px solid var(--black);
+}
+
+.quiz .option:hover {
+  background-color: var(--primary-light);
+  color: white;
+}
+
+.quiz .question {
+  text-align: justify;
+}
+/* instructions ends here  */
