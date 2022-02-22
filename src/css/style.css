@@ -79,12 +79,11 @@
 #faq-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 5rem 0;
+  margin: 5rem auto;
+  max-width: 50rem;
 }
 
 #faq-section ul {
-  margin: 0;
 }
 
 #faq-section li {
@@ -94,7 +93,6 @@
 
 .list {
   padding: 0 2rem;
-  width: 45rem;
 }
 
 .list li {
