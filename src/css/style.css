@@ -11,13 +11,46 @@
   height: 100vh;
 }
 
-#welcomepage .container .left .hero {
+#welcomepage .hero {
   max-width: 15ch;
   margin: 0 auto;
 }
 
-#welcomepage .container .get-started {
+#welcomepage .get-started {
   margin-top: 7.5rem;
+}
+
+#welcomepage .right {
+  margin: 3.5rem;
+}
+
+@media (max-width: 825px) {
+  #welcomepage .container {
+    grid-template-columns: 1fr;
+  }
+
+  #welcomepage .hero {
+    font-size: 7vw;
+  }
+
+  #welcomepage .right {
+    margin: 3.5rem 12rem;
+    grid-row: 1;
+  }
+  #welcomepage .get-started {
+    margin: 3.5rem 0;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  #welcomepage .hero {
+    font-size: 10vw;
+  }
+
+  #welcomepage .right {
+    margin: 3.5rem;
+    grid-row: 1;
+  }
 }
 
 #welcome {
@@ -81,9 +114,6 @@
   flex-direction: column;
   margin: 5rem auto;
   max-width: 50rem;
-}
-
-#faq-section ul {
 }
 
 #faq-section li {
