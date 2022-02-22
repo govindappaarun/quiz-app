@@ -48,6 +48,10 @@
   color: var(--white);
 }
 
+#hero-section .hero {
+  color: var(--white);
+}
+
 .topics {
   display: flex;
   flex-wrap: wrap;
@@ -170,7 +174,9 @@ footer .btn {
 /* instructions ends here  */
 
 .result-card {
-  margin: 5rem 10rem;
+  max-width: 55rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
 }
 
 .question {
