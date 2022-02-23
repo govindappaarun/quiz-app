@@ -1,3 +1,7 @@
+/* import component library */
+
+@import url("https://avon-component-library-arun.netlify.app/src/components/main.css");
+
 :root {
   --white-cream: #f5f8fc;
   --ligt-blue: #4183f2;
